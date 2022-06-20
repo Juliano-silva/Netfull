@@ -1,0 +1,188 @@
+
+/* Styles: */
+.icon {
+  position: relative;
+  background: white;
+  margin: auto;
+  margin-top: 12%;
+  color: black;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  line-height: 250px;
+  text-align: center;
+  font-size: 10em;
+  font-weight: bold;
+  transition: 0.24s 0.2s;
+  cursor: pointer;
+}
+.avançar  >  a{
+  text-decoration: none;
+  color: red;
+}
+.menu {
+  position: absolute;
+  top: 125px;
+  left: 125px;
+  border: 150px solid transparent;
+  border-radius: 50%;
+  transition: transform 1.4s 0.07s;
+}
+.spread {
+  position: absolute;
+  top: -100px;
+  left: -240px;
+  transform-origin: 240px 100px;
+  transition: all 0.5s 0.1s;
+}
+
+.menu {
+  animation: girar 40s infinite linear;
+  border: 1px solid transparent;
+}
+
+.spread, .unit {
+  transition: all 0.6s;
+}
+.spread:nth-child(1) {
+  transition-delay: 0.02s;
+  transform: rotate(85deg);
+}
+.spread:nth-child(1) .unit {
+  transition-delay: 0.04s;
+  transform: rotate(635deg);
+  background: rgb(52, 192, 17);
+}
+
+.spread:nth-child(2) {
+  transition-delay: 0.04s;
+  transform: rotate(125deg);
+}
+.spread:nth-child(2) .unit {
+  transition-delay: 0.08s;
+  transform: rotate(595deg);
+  background: pink;
+}
+
+.spread:nth-child(3) {
+  transition-delay: 0.06s;
+  transform: rotate(165deg);
+}
+.spread:nth-child(3) .unit {
+  transition-delay: 0.12s;
+  transform: rotate(555deg);
+  background: white;
+}
+
+.spread:nth-child(4) {
+  transition-delay: 0.08s;
+  transform: rotate(205deg);
+}
+.spread:nth-child(4) .unit {
+  transition-delay: 0.16s;
+  transform: rotate(515deg);
+  background: black;
+}
+
+.spread:nth-child(5) {
+  transition-delay: 0.1s;
+  transform: rotate(245deg);
+}
+.spread:nth-child(5) .unit {
+  transition-delay: 0.2s;
+  transform: rotate(475deg);
+  background: purple;
+}
+
+.spread:nth-child(6) {
+  transition-delay: 0.12s;
+  transform: rotate(285deg);
+}
+.spread:nth-child(6) .unit {
+  transition-delay: 0.24s;
+  transform: rotate(435deg);
+  background: yellow;
+}
+
+.spread:nth-child(7) {
+  transition-delay: 0.14s;
+  transform: rotate(325deg);
+}
+.spread:nth-child(7) .unit {
+  transition-delay: 0.28s;
+  transform: rotate(395deg);
+  background: green;
+}
+
+.spread:nth-child(8) {
+  transition-delay: 0.16s;
+  transform: rotate(365deg);
+}
+.spread:nth-child(8) .unit {
+  transition-delay: 0.32s;
+  transform: rotate(355deg);
+  background: red;
+}
+
+.spread:nth-child(9) {
+  transition-delay: 0.18s;
+  transform: rotate(405deg);
+}
+.spread:nth-child(9) .unit {
+  transition-delay: 0.36s;
+  transform: rotate(315deg);
+  background: blue;
+}
+
+.unit {
+  position: absolute;
+  font-size: 20%;
+  line-height: 100px;
+  text-decoration: none;
+  width: 100px;
+  height: 100px;
+  color: dodgerblue;
+  border-radius: 50%;
+  transition: 0.6s;
+}
+/* Just CodePen layout stuff: */
+body, a, ul, li {
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  list-style: none;
+}
+
+html, body {
+  height: 100%;
+  min-height: 300px;
+  transform: translate3d(0, 0, 0);
+}
+@keyframes girar{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  from {
+    transform: 0deg;
+  }
+  to {
+    transform: 260deg;
+  }
+}
+.IconeLogin{
+ 
+  height: 100vh;
+  width: 100%;
+  margin-top: -37.6px;
+  position: absolute;
+  background-image: url(../Img/fundo\ Netflix.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*# sourceMappingURL=login.module.css.map */

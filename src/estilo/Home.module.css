@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.Slide{
+    background-image: url(../Img/Halloween.jpg);
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-size: cover;
+    height: 50em;
+    margin-top: -38px;
+    transition-delay: 3s;
+    transition: 3s;
+}
+.Slide:hover{
+    background-image: url(../Img/Halloween.gif);
+}
+.NF{
+    color: yellow;
+    text-shadow: 1px 1px 5px red;
+    font-family: 'Patrick Hand', cursive;
+    margin-top: 20px;
+}
+.btnP{
+    border: 1px solid transparent;
+    width: 10em;
+    height: 3em;
+    background: white;
+    color: black;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.btnP:nth-child(4){
+    background: rgb(77, 72, 72);
+    margin-left: 10px;
+    color: white;
+}
+.SlideConte{
+    color: white;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 0 20px 0 0;
+    background: linear-gradient(135deg, rgba(74, 15, 170, 0.1), rgba(66, 63, 212, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 20em;
+    height: 20em;
+    margin-top: 28.8em;
+}
+.SlideConte > h6{
+   font-size: 20px;
+   margin-top: 25px;
+}
+.AF > button{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    cursor: pointer;
+    height: 2em;
+    background: yellow;
+    color: black;
+    border: 1px solid transparent;
+    text-shadow: 1px 1px 1px white;
+    box-shadow: 2px 2px 2px white;
+    font-size: 25px;
+    margin-top: 10px;
+    width: 10em;
+    border-radius: 20px;
+}
+.ML{
+    text-align: center;
+    color: white;
+}
+.AF{
+    text-decoration: none;
+}
+.CaixaItem{
+    border: 1px solid blue;
+    height: 100%;
+}
+.Projects > h1{
+    text-align: center;
+    color: white;
+    margin-top: -0.5px;
+}

@@ -1,0 +1,14 @@
+body {
+  background: rgb(66, 65, 65);
+}
+.Header > h1{
+  border: 1px solid transparent;
+  text-align: center;
+  margin-top: -1px;
+  color: white
+  ;
+}
+.CorpoTudo{
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */

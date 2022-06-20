@@ -1,0 +1,51 @@
+.LoginBk {
+  height: 100%;
+  background-image: url("../../../Img/BkLogin.jpg");
+  margin-top: -30px;
+  height: 104vh;
+}
+
+.Login {
+  width: 25em;
+  margin: auto;
+  height: 30em;
+  margin-top: 120px;
+  text-align: center;
+  background: linear-gradient(135deg, rgba(74, 15, 170, 0.1), rgba(66, 63, 212, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  box-shadow: 0 8px 40px 0 rgba(0, 0, 0, 0.37);
+}
+.Login > h1{
+  font-size: 40px;
+  text-shadow: 1px 2px 3px purple;
+}
+.Login > h1 > span:first-of-type{
+  color: white;
+  text-shadow: 1px 1px 1px red;
+}
+.Inputs > h1{
+  margin-top: 20px;
+  width: 80%;
+  margin-left: 20px;
+  text-align: left;
+  font-size: 15px;
+  color: white;
+}
+.Inputs > input{
+  outline: none;
+  border: 1px solid transparent;
+  width: 90%;
+  height: 2.5em;
+}
+.Inputs > a > input{
+  cursor: pointer;
+  color: white;
+  border: 1px solid transparent;
+  width: 90%;
+  height: 2em;
+  margin-top: 10px;
+  background: rgb(83, 11, 11);
+}
+/*# sourceMappingURL=TelaLogin.module.css.map */
